@@ -1,0 +1,11 @@
+[package]
+name = "winit-dll-bug-macos"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dlopen = "0.1.8"
+winit = "0.30.12"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
