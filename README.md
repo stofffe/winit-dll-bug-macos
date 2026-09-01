@@ -11,7 +11,7 @@ cargo build
 ```
 Then move the DLL from target to root
 ```
-mv ./target/debug/libwinit_dll_bug_macos.dylib .
+mv ./target/debug/libhashbrown_dll_bug_macos.dylib .
 ```
 Then run the program
 ```
