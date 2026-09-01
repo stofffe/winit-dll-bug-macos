@@ -1,8 +1,8 @@
-# winit-dll-bug-macos
+# hashbrown-dll-bug-macos
 
 ### Description
-This repo is made to replicate the bug in the issue https://github.com/rust-windowing/winit/issues/4344. 
-The code builds a simple DLL which accesses the winit Window. The DLL is then loaded and called, leading to a crash.
+This repo is made to replicate the bug in the issue https://github.com/rust-lang/hashbrown/issues/746. 
+The code builds a simple DLL and passes hashbrown hashmap over the boundary. The values seem to be kept in the hashmap but lookup using get returns None.
 
 ### How to replicate
 First build the library DLL

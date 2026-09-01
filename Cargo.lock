@@ -399,6 +399,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "hashbrown-dll-bug-macos"
+version = "0.1.0"
+dependencies = [
+ "dlopen",
+ "hashbrown 0.17.1",
+ "winit",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1734,15 +1743,6 @@ dependencies = [
  "x11-dl",
  "x11rb",
  "xkbcommon-dl",
-]
-
-[[package]]
-name = "winit-dll-bug-macos"
-version = "0.1.0"
-dependencies = [
- "dlopen",
- "hashbrown 0.17.1",
- "winit",
 ]
 
 [[package]]
